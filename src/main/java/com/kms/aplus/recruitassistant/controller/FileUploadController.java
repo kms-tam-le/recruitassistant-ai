@@ -19,8 +19,8 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import com.kms.aplus.recruitassistant.exception.FileNotFoundException;
 import com.kms.aplus.recruitassistant.service.storage.StorageService;
-import com.kms.aplus.recruitassistant.storage.FileNotFoundException;
 
 @Controller
 public class FileUploadController {

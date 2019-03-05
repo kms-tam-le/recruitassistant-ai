@@ -17,9 +17,9 @@ import org.springframework.util.FileSystemUtils;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.kms.aplus.recruitassistant.exception.FileNotFoundException;
+import com.kms.aplus.recruitassistant.exception.StorageException;
 import com.kms.aplus.recruitassistant.properties.StorageProperties;
-import com.kms.aplus.recruitassistant.storage.FileNotFoundException;
-import com.kms.aplus.recruitassistant.storage.StorageException;
 
 @Service
 public class FileSystemStorageServiceImpl implements StorageService {

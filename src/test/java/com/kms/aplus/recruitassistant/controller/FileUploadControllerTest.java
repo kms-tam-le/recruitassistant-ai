@@ -15,8 +15,8 @@ import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
+import com.kms.aplus.recruitassistant.exception.FileNotFoundException;
 import com.kms.aplus.recruitassistant.service.storage.StorageService;
-import com.kms.aplus.recruitassistant.storage.FileNotFoundException;
 
 import static org.mockito.BDDMockito.given;
 import static org.mockito.BDDMockito.then;

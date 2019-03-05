@@ -8,9 +8,9 @@ import org.junit.Test;
 import org.springframework.http.MediaType;
 import org.springframework.mock.web.MockMultipartFile;
 
+import com.kms.aplus.recruitassistant.exception.StorageException;
 import com.kms.aplus.recruitassistant.properties.StorageProperties;
 import com.kms.aplus.recruitassistant.service.storage.FileSystemStorageServiceImpl;
-import com.kms.aplus.recruitassistant.storage.StorageException;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

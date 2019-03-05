@@ -1,4 +1,4 @@
-package com.kms.aplus.recruitassistant.storage;
+package com.kms.aplus.recruitassistant.exception;
 
 public class FileNotFoundException extends StorageException {
 	

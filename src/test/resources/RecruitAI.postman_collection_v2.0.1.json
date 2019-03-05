@@ -1,0 +1,24 @@
+{
+	"info": {
+		"_postman_id": "59caec01-80e5-4e08-a024-09f236769366",
+		"name": "RecruitAI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Upload File",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}

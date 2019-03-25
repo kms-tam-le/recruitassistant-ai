@@ -3,6 +3,7 @@ package com.kms.aplus.recruitassistant.controller;
 import java.io.IOException;
 import java.util.stream.Collectors;
 
+import edu.stanford.nlp.ie.crf.CRFClassifier;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
@@ -27,6 +28,12 @@ public class FileUploadController {
 
 	@Autowired
     private StorageService storageService;
+
+	@PostMapping("/classifier")
+    public String classifier() throws IOException {
+	    storageService.classifier();
+        return "redirect:/";
+    }
 
     @GetMapping("/")
     public String listUploadedFiles(Model model) throws IOException {
